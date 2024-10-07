@@ -25,6 +25,10 @@
     background-color: black;
 }
 
+.english {
+    padding: 15px 0;
+}
+
 nav {
     max-width: 60vw;
     margin: auto;
@@ -89,11 +93,15 @@ body {
 .btn {
     padding: 3px 8px;
     font-weight: 400;
-    background-color: rgba(147, 137, 137, 0.153);
-    color: white;
+    background-color: rgba(63, 60, 60, 0.153);
+    color: rgb(255, 255, 255);
     border-radius: 4px;
-    border: 1px solid white;
     cursor: pointer;
+}
+
+
+.flex>button {
+    background-color: rgba(19, 18, 18, 0.395);
 }
 
 .btn-red {
@@ -153,6 +161,11 @@ body {
     top: 120px;
     right: 76px;
     width: 407px;
+}
+
+option {
+    background-color: black;
+    color: white;
 }
 
 section.first>div {
