@@ -100,7 +100,7 @@ body {
 }
 
 
-.flex>button {
+.flex>:nth-child(1) {
     background-color: rgba(19, 18, 18, 0.395);
 }
 
